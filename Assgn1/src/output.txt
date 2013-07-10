@@ -1,0 +1,377 @@
+run:
+****************
+*Simulation # 1*
+****************
+---Processes List---
+
+		Arr_T			Run_T		Priority
+		-----			-----		--------
+1)	A	6.4361753		9		3
+2)	F	7.731557		9		4
+3)	I	17.607344		4		1
+4)	G	19.635004		7		4
+5)	D	34.7369		9		3
+6)	Q	37.05513		10		2
+7)	M	37.85056		4		3
+8)	P	44.59133		7		1
+9)	L	52.387314		1		4
+10)	B	63.604034		7		2
+11)	O	70.948944		1		2
+12)	N	79.95463		2		2
+13)	C	85.31047		10		3
+14)	K	89.60321		8		4
+---End Processes List---
+
+===Algorithm: FCFS:===
+|(time chart)		______AAAAAAAAAFFFFFFFFFIIIIGGGGGGGDDDDDDDDDQQQQQQQQQQMMMMPPPPPPPLBBBBBBBO_____NN____CCCCCCCCCCKKKKKKKK
+|AVE(turnaround)	11.967672
+|RA(waiting time)	5.803477
+|GE(response time)	6.6819572
+===End Algorithm: FCFS:===
+
+===Algorithm: SJF:===
+|(time chart)		______AAAAAAAAAFFFFFFFFFIIIIGGGGGGGDDDDDDDDDMMMMPPPPPPPLQQQQQQQQQQBBBBBBBO_____NN____CCCCCCCCCCKKKKKKKK
+|AVE(turnaround)	10.681956
+|RA(waiting time)	4.517762
+|GE(response time)	5.396243
+===End Algorithm: SJF:===
+
+===Algorithm: SRT:===
+|(time chart)		______AAAAAAAAAFFIIIIFFFFFFFGGGGGGGDDMMMMDDDDDDDPPPPLPPPQQQQQQQQQQBBBBOBBB_____NN____CCCCCCCCCCKKKKKKKK
+|AVE(turnaround)	9.967671
+|RA(waiting time)	4.0030594
+|GE(response time)	3.9676712
+===End Algorithm: SRT:===
+
+===Algorithm: HPF_NP:===
+|(time chart)		______AAAAAAAAAFFFFFFFFFIIIIGGGGGGGDDDDDDDDDQQQQQQQQQQPPPPPPPMMMMBBBBBBBOL_____NN____CCCCCCCCCCKKKKKKKK
+|AVE(turnaround)	12.610529
+|RA(waiting time)	6.446334
+|GE(response time)	7.3248143
+===End Algorithm: HPF_NP:===
+
+===Algorithm: HPF_P:===
+|(time chart)		______AAAAAAAAAFFIIIIFFFFFFFGGGGGGDDDQQQQQQQPPPPPPPQQQMMMMDDDDDBBBBBBBODGL_____NN____CCCCCCCCCCKKKKKKKK
+|AVE(turnaround)	15.610527
+|RA(waiting time)	9.642881
+|GE(response time)	4.753385
+===End Algorithm: HPF_P:===
+
+===Algorithm: RR with timeSlice = 1===
+|(time chart)		______AAFAFAFAFAFAFIAFGIAFGIFGIGGGGDDDQMDQMDQMDPQMDPQDPLQDPQPQPQPBQBBBBOBB_____NN____CCCCCKCKCKCKCKCKKK
+|AVE(turnaround)	14.181955
+|RA(waiting time)	7.9644303
+|GE(response time)	1.8248141
+===End Algorithm: RR with timeSlice = 1===
+
+****************
+*Simulation # 2*
+****************
+---Processes List---
+
+		Arr_T			Run_T		Priority
+		-----			-----		--------
+1)	L	2.3786247		5		2
+2)	G	3.1034052		1		3
+3)	D	3.5740197		8		2
+4)	I	5.5791435		4		3
+5)	P	9.557981		3		3
+6)	H	20.519846		9		2
+7)	A	20.544874		7		3
+8)	F	29.079987		8		3
+9)	S	35.86899		1		1
+10)	M	36.72693		9		1
+11)	K	44.305153		6		4
+12)	C	44.395493		5		3
+13)	O	46.34441		1		1
+14)	J	54.405373		6		4
+15)	Q	66.21922		7		2
+16)	T	77.350006		10		4
+17)	R	82.63306		1		1
+18)	E	87.627396		4		2
+19)	N	88.9762		7		4
+---End Processes List---
+
+===Algorithm: FCFS:===
+|(time chart)		__LLLLLGDDDDDDDDIIIIPPPHHHHHHHHHAAAAAAAFFFFFFFFSMMMMMMMMMKKKKKKCCCCCOJJJJJJQQQQQQQTTTTTTTTTTREEEENNNNNNN
+|AVE(turnaround)	14.77947
+|RA(waiting time)	9.430974
+|GE(response time)	10.411046
+===End Algorithm: FCFS:===
+
+===Algorithm: SJF:===
+|(time chart)		__LLLLLGIIIIPPPDDDDDDDDAAAAAAAFFFFFFFFSHHHHHHHHHOCCCCCKKKKKKJJJJJJMMMMMMMMMQQQQQQQTTTTTTTTTTREEEENNNNNNN
+|AVE(turnaround)	12.253153
+|RA(waiting time)	6.9046583
+|GE(response time)	7.8847313
+===End Algorithm: SJF:===
+
+===Algorithm: SRT:===
+|(time chart)		__LGLLLLIIIIPPPDDDDDDDDAAAAAAAFFFFFSFFFHHHHHHHOHHCCCCCKKKKKKJJJJJJQQQQQQQMMMMMMMMMRTTTTEEEETTTTTTNNNNNNN
+|AVE(turnaround)	11.253153
+|RA(waiting time)	6.0319147
+|GE(response time)	6.5163097
+===End Algorithm: SRT:===
+
+===Algorithm: HPF_NP:===
+|(time chart)		__LLLLLDDDDDDDDGIIIIPPPHHHHHHHHHAAAAAAASMMMMMMMMMOCCCCCFFFFFFFFKKKKKKQQQQQQQJJJJJJTTTTTTTTTTREEEENNNNNNN
+|AVE(turnaround)	13.8321
+|RA(waiting time)	8.483605
+|GE(response time)	9.463677
+===End Algorithm: HPF_NP:===
+
+===Algorithm: HPF_P:===
+|(time chart)		__LLLLLDDDDDDDDGIIIIHHHHHHHHHPPPAAASMMMMMMMMMAOFFFFFFFFCCCCCAAAKKKQQQQQQQJJJJJJKKKRTTTTEEEETTTTTTNNNNNNN
+|AVE(turnaround)	14.463681
+|RA(waiting time)	9.322545
+|GE(response time)	7.9373617
+===End Algorithm: HPF_P:===
+
+===Algorithm: RR with timeSlice = 1===
+|(time chart)		__LLGDLIDLIDPLIDPIDPDHADHADHAHAFHAFHAFSHMAFHMFHKCMFOKCMFKCJMFKCJMKCJMKQJMQJMQJQTQTQTRQTTETNETNETNETNTNNN
+|AVE(turnaround)	17.411047
+|RA(waiting time)	12.042626
+|GE(response time)	2.9899945
+===End Algorithm: RR with timeSlice = 1===
+
+****************
+*Simulation # 3*
+****************
+---Processes List---
+
+		Arr_T			Run_T		Priority
+		-----			-----		--------
+1)	E	3.2910347		9		4
+2)	B	5.32549		3		4
+3)	C	10.881358		8		4
+4)	I	22.747595		3		4
+5)	P	29.418362		6		3
+6)	K	31.814707		5		3
+7)	F	35.32117		1		4
+8)	D	43.51088		8		1
+9)	J	48.118473		4		1
+10)	M	54.559334		4		3
+11)	H	61.707455		10		4
+12)	L	61.715977		5		1
+13)	O	67.104065		7		2
+14)	R	68.93306		4		2
+15)	G	69.3532		7		3
+16)	A	73.573975		1		3
+17)	N	75.15091		10		3
+---End Processes List---
+
+===Algorithm: FCFS:===
+|(time chart)		___EEEEEEEEEBBBCCCCCCCCIII___PPPPPPKKKKKF__DDDDDDDDJJJJMMMM__HHHHHHHHHHLLLLLOOOOOOORRRRGGGGGGGANNNNNNNNNN
+|AVE(turnaround)	12.086645
+|RA(waiting time)	6.611805
+|GE(response time)	7.4984093
+===End Algorithm: FCFS:===
+
+===Algorithm: SJF:===
+|(time chart)		___EEEEEEEEEBBBCCCCCCCCIII___PPPPPPKKKKKF__DDDDDDDDJJJJMMMM__HHHHHHHHHHRRRRALLLLLGGGGGGGOOOOOOONNNNNNNNNN
+|AVE(turnaround)	10.910174
+|RA(waiting time)	5.435334
+|GE(response time)	6.3219385
+===End Algorithm: SJF:===
+
+===Algorithm: SRT:===
+|(time chart)		___EEBBBEEEEEEECCCCCCCCIII___PPPPPPFKKKKK__DDDDDDDDJJJJMMMM__LLLLLHORRRROAOOOOOGGGGGGGHHHHHHHHHNNNNNNNNNN
+|AVE(turnaround)	9.616056
+|RA(waiting time)	4.251286
+|GE(response time)	3.4395854
+===End Algorithm: SRT:===
+
+===Algorithm: HPF_NP:===
+|(time chart)		___EEEEEEEEEBBBCCCCCCCCIII___PPPPPPKKKKKF__DDDDDDDDJJJJMMMM__HHHHHHHHHHLLLLLOOOOOOORRRRGGGGGGGANNNNNNNNNN
+|AVE(turnaround)	12.086645
+|RA(waiting time)	6.611805
+|GE(response time)	7.4984093
+===End Algorithm: HPF_NP:===
+
+===Algorithm: HPF_P:===
+|(time chart)		___EEEEEEEEEBBBCCCCCCCCIII___PPPPPPKKKKKF__DDDDDDDDJJJJMMMM__LLLLLHOOOOOOORRRRGGGGGGGANNNNNNNNNNHHHHHHHHH
+|AVE(turnaround)	10.851351
+|RA(waiting time)	5.383134
+|GE(response time)	4.5572324
+===End Algorithm: HPF_P:===
+
+===Algorithm: RR with timeSlice = 1===
+|(time chart)		___EEEBEBEBECECECECCCCCIII___PPPKPKPKFPKK__DDDDDDJDJDJJMMMM__HLHLHLHLOHRLGOHRAGONHRGONHRGONHGONHGONGNNNNN
+|AVE(turnaround)	14.027822
+|RA(waiting time)	8.439586
+|GE(response time)	2.1454678
+===End Algorithm: RR with timeSlice = 1===
+
+****************
+*Simulation # 4*
+****************
+---Processes List---
+
+		Arr_T			Run_T		Priority
+		-----			-----		--------
+1)	N	6.9772778		9		2
+2)	C	7.455307		1		4
+3)	Q	12.066764		6		4
+4)	P	16.312672		5		3
+5)	O	34.86821		8		2
+6)	M	36.704723		2		4
+7)	J	37.226307		7		4
+8)	B	37.813713		7		4
+9)	D	41.489494		7		3
+10)	H	48.618126		8		2
+11)	F	48.702206		3		4
+12)	E	56.4174		3		1
+13)	I	58.593803		5		4
+14)	K	71.746895		2		2
+15)	R	73.86598		2		1
+16)	S	75.22129		9		2
+17)	G	77.62001		9		1
+---End Processes List---
+
+===Algorithm: FCFS:===
+|(time chart)		______NNNNNNNNNCQQQQQQPPPPP_______OOOOOOOOMMJJJJJJJBBBBBBBDDDDDDDHHHHHHHHFFFEEEIIIIIKKRRSSSSSSSSSGGGGGGGGG
+|AVE(turnaround)	16.899988
+|RA(waiting time)	11.537959
+|GE(response time)	12.429401
+===End Algorithm: FCFS:===
+
+===Algorithm: SJF:===
+|(time chart)		______NNNNNNNNNCQQQQQQPPPPP_______OOOOOOOOMMJJJJJJJFFFDDDDDDDEEEIIIIIBBBBBBBKKRRHHHHHHHHSSSSSSSSSGGGGGGGGG
+|AVE(turnaround)	14.605872
+|RA(waiting time)	9.243842
+|GE(response time)	10.135283
+===End Algorithm: SJF:===
+
+===Algorithm: SRT:===
+|(time chart)		______NCNNNNNNNNPPPPPQQQQQQ_______OOMMOOOOOOJJJJJJJFFFDDEEEDDDDDIIIIIBBKKRRBBBBBHHHHHHHHSSSSSSSSSGGGGGGGGG
+|AVE(turnaround)	13.429401
+|RA(waiting time)	8.16487
+|GE(response time)	8.370577
+===End Algorithm: SRT:===
+
+===Algorithm: HPF_NP:===
+|(time chart)		______NNNNNNNNNCQQQQQQPPPPP_______OOOOOOOODDDDDDDHHHHHHHHEEEMMJJJJJJJFFFKKRRSSSSSSSSSGGGGGGGGGBBBBBBBIIIII
+|AVE(turnaround)	16.782341
+|RA(waiting time)	11.420312
+|GE(response time)	12.311754
+===End Algorithm: HPF_NP:===
+
+===Algorithm: HPF_P:===
+|(time chart)		______NNNNNNNNNCPPPPPQQQQQQ_______OOOOOOOODDDDDDHHHHHHHHEEEDMMJJJJJJJFFKKRRSSGGGGGGGGGSSSSSSSBBBBBBBIIIIIF
+|AVE(turnaround)	19.017635
+|RA(waiting time)	13.866258
+|GE(response time)	11.370578
+===End Algorithm: HPF_P:===
+
+===Algorithm: RR with timeSlice = 1===
+|(time chart)		______NNCNNNNQNQNQPNQPQPQPP_______OOOMOJBMOJBDOJBDOJHFBDOJHFBDEJIHFBDEJIHBDEKIHRDSKGIHRSGIHSGHSGSGSGSGSGSG
+|AVE(turnaround)	21.899988
+|RA(waiting time)	16.4294
+|GE(response time)	3.8411658
+===End Algorithm: RR with timeSlice = 1===
+
+****************
+*Simulation # 5*
+****************
+---Processes List---
+
+		Arr_T			Run_T		Priority
+		-----			-----		--------
+1)	L	14.31337		2		1
+2)	T	19.574791		7		2
+3)	C	21.770805		4		2
+4)	E	22.930073		6		4
+5)	M	31.70138		1		4
+6)	A	42.20658		10		1
+7)	K	42.22415		7		3
+8)	J	46.954666		4		4
+9)	D	52.649517		8		3
+10)	Q	53.808002		10		4
+11)	H	61.2156		1		3
+12)	O	66.95289		8		3
+13)	P	70.11498		1		1
+14)	N	73.08302		1		1
+15)	G	75.682625		9		4
+---End Processes List---
+
+===Algorithm: FCFS:===
+|(time chart)		______________LL___TTTTTTTCCCCEEEEEEM_____AAAAAAAAAAKKKKKKKJJJJDDDDDDDDQQQQQQQQQQHOOOOOOOOPNGGGGGGGGG
+|AVE(turnaround)	15.454502
+|RA(waiting time)	10.260819
+|GE(response time)	11.187836
+===End Algorithm: FCFS:===
+
+===Algorithm: SJF:===
+|(time chart)		______________LL___TTTTTTTCCCCEEEEEEM_____AAAAAAAAAAJJJJKKKKKKKHDDDDDDDDPOOOOOOOONGGGGGGGGGQQQQQQQQQQ
+|AVE(turnaround)	12.321169
+|RA(waiting time)	7.1274858
+|GE(response time)	8.0545025
+===End Algorithm: SJF:===
+
+===Algorithm: SRT:===
+|(time chart)		______________LL___TTCCCCTTTTTEMEEEEE_____KKKKKKKJJJJDDDDDDDDHQQQQQQQQPQQNOOOOOOOOGGGGGGGGGAAAAAAAAAA
+|AVE(turnaround)	10.787836
+|RA(waiting time)	5.682724
+|GE(response time)	6.12117
+===End Algorithm: SRT:===
+
+===Algorithm: HPF_NP:===
+|(time chart)		______________LL___TTTTTTTCCCCEEEEEEM_____AAAAAAAAAAKKKKKKKDDDDDDDDHOOOOOOOOPNJJJJQQQQQQQQQQGGGGGGGGG
+|AVE(turnaround)	13.454502
+|RA(waiting time)	8.260819
+|GE(response time)	9.187837
+===End Algorithm: HPF_NP:===
+
+===Algorithm: HPF_P:===
+|(time chart)		______________LL___TTTTTTTCCCCEEEEEEM_____AAAAAAAAAAKKKKKKKDDDDDDDDHOOPOONOOOOJJJJQQQQQQQQQQGGGGGGGGG
+|AVE(turnaround)	12.921169
+|RA(waiting time)	7.740686
+|GE(response time)	8.52117
+===End Algorithm: HPF_P:===
+
+===Algorithm: RR with timeSlice = 1===
+|(time chart)		______________LL___TTTCTECTECTECTEMEE_____AKAKAKJAKJAKJDAQKJDAQKDHAQDOAQDOPAQDNOGQDOGQDOGQOGQOGQOGGGG
+|AVE(turnaround)	17.254503
+|RA(waiting time)	12.008728
+|GE(response time)	2.9211695
+===End Algorithm: RR with timeSlice = 1===
+
+	*****Final Statistics in 5 simulations**********
+	===Algorithm: FCFS===
+	|AVE(turnaround)	14.237656
+	|RA(waiting time)	8.729007
+	|GE(response time)	9.641729
+	===End Algorithm: FCFS===
+
+	===Algorithm: SJF===
+	|AVE(turnaround)	12.154465
+	|RA(waiting time)	6.645817
+	|GE(response time)	7.5585403
+	===End Algorithm: SJF===
+
+	===Algorithm: SRT===
+	|AVE(turnaround)	11.010823
+	|RA(waiting time)	5.626771
+	|GE(response time)	5.6830626
+	===End Algorithm: SRT===
+
+	===Algorithm: HPF_NP===
+	|AVE(turnaround)	13.753222
+	|RA(waiting time)	8.244575
+	|GE(response time)	9.157298
+	===End Algorithm: HPF_NP===
+
+	===Algorithm: HPF_P===
+	|AVE(turnaround)	14.572873
+	|RA(waiting time)	9.1911
+	|GE(response time)	7.427945
+	===End Algorithm: HPF_P===
+
+	===Algorithm: RR===
+	|AVE(turnaround)	16.955063
+	|RA(waiting time)	11.376955
+	|GE(response time)	2.7445223
+	===End Algorithm: RR===
+
+	*****End Final Statistics in 5 simulations**********
+BUILD SUCCESSFUL (total time: 0 seconds)

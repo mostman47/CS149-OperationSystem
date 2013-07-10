@@ -1,0 +1,1267 @@
+
+
+mr.nam@mrnam-PC ~/cs149
+$ gcc -o ass2 assign2.c
+
+mr.nam@mrnam-PC ~/cs149
+$ ./ass2
+===========Student List (20)============
+#       start   visit
+1       9       1
+2       16      3
+3       17      5
+4       21      4
+5       21      3
+6       30      1
+7       30      4
+8       36      3
+9       44      2
+10      50      1
+11      54      5
+12      62      3
+13      68      4
+14      76      2
+15      77      4
+16      83      4
+17      83      5
+18      88      2
+19      92      4
+20      98      2
+=========Time List=========
+Parent: Creating visit event thread.
+
+time (in min): 0
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 0)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 1
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 1)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 2
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 2)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 3
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 3)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 4
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 4)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 5
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 5)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 6
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 6)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 7
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 7)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 8
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 8)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 9
+
+                ===Event List===
+        -Student #1 comes to office
+
+        -Student #1 is in office (0 time remaining)
+        -Student #1 is done. She leaves.
+
+                ===Table(time: 9)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 10
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 10)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 11
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 11)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 12
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 12)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 13
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 13)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 14
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 14)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 15
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 15)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 16
+
+                ===Event List===
+        -Student #2 comes to office
+
+        -Student #2 is in office (2 time remaining)
+
+                ===Table(time: 16)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #2
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 17
+
+                ===Event List===
+        -Student #3 comes to office
+        -Student #3 is waiting on chair(1: 3 0 0)
+
+        -Student #2 is in office (1 time remaining)
+
+                ===Table(time: 17)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #3            17      5      | #2
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 18
+
+                ===Event List===
+
+        -Student #2 is in office (0 time remaining)
+        -Student #2 is done. She leaves.
+
+                ===Table(time: 18)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #3            17      5      | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 19
+
+                ===Event List===
+
+        -Student #3 is in office (4 time remaining)
+
+                ===Table(time: 19)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #3
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 20
+
+                ===Event List===
+
+        -Student #3 is in office (3 time remaining)
+
+                ===Table(time: 20)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #3
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 21
+
+                ===Event List===
+        -Student #4 comes to office
+        -Student #4 is waiting on chair(1: 4 0 0)
+        -Student #5 comes to office
+        -Student #5 is waiting on chair(2: 4 5 0)
+
+        -Student #3 is in office (2 time remaining)
+
+                ===Table(time: 21)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #4            21      4      | #3
+        2) #5            21      3      |
+        3) N/A           N/A     N/a    |
+
+time (in min): 22
+
+                ===Event List===
+
+        -Student #3 is in office (1 time remaining)
+
+                ===Table(time: 22)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #4            21      4      | #3
+        2) #5            21      3      |
+        3) N/A           N/A     N/a    |
+
+time (in min): 23
+
+                ===Event List===
+
+        -Student #3 is in office (0 time remaining)
+        -Student #3 is done. She leaves.
+
+                ===Table(time: 23)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #4            21      4      | N/A
+        2) #5            21      3      |
+        3) N/A           N/A     N/a    |
+
+time (in min): 24
+
+                ===Event List===
+
+        -Student #4 is in office (3 time remaining)
+
+                ===Table(time: 24)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #5            21      3      | #4
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 25
+
+                ===Event List===
+
+        -Student #4 is in office (2 time remaining)
+
+                ===Table(time: 25)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #5            21      3      | #4
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 26
+
+                ===Event List===
+
+        -Student #4 is in office (1 time remaining)
+
+                ===Table(time: 26)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #5            21      3      | #4
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 27
+
+                ===Event List===
+
+        -Student #4 is in office (0 time remaining)
+        -Student #4 is done. She leaves.
+
+                ===Table(time: 27)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #5            21      3      | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 28
+
+                ===Event List===
+
+        -Student #5 is in office (2 time remaining)
+
+                ===Table(time: 28)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #5
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 29
+
+                ===Event List===
+
+        -Student #5 is in office (1 time remaining)
+
+                ===Table(time: 29)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #5
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 30
+
+                ===Event List===
+        -Student #6 comes to office
+        -Student #6 is waiting on chair(1: 6 0 0)
+        -Student #7 comes to office
+        -Student #7 is waiting on chair(2: 6 7 0)
+
+        -Student #5 is in office (0 time remaining)
+        -Student #5 is done. She leaves.
+
+                ===Table(time: 30)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #6            30      1      | N/A
+        2) #7            30      4      |
+        3) N/A           N/A     N/a    |
+
+time (in min): 31
+
+                ===Event List===
+
+        -Student #6 is in office (0 time remaining)
+        -Student #6 is done. She leaves.
+
+                ===Table(time: 31)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) #7            30      4      | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 32
+
+                ===Event List===
+
+        -Student #7 is in office (3 time remaining)
+
+                ===Table(time: 32)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #7
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 33
+
+                ===Event List===
+
+        -Student #7 is in office (2 time remaining)
+
+                ===Table(time: 33)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #7
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 34
+
+                ===Event List===
+
+        -Student #7 is in office (1 time remaining)
+
+                ===Table(time: 34)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #7
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 35
+
+                ===Event List===
+
+        -Student #7 is in office (0 time remaining)
+        -Student #7 is done. She leaves.
+
+                ===Table(time: 35)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 36
+
+                ===Event List===
+        -Student #8 comes to office
+
+        -Student #8 is in office (2 time remaining)
+
+                ===Table(time: 36)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #8
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 37
+
+                ===Event List===
+
+        -Student #8 is in office (1 time remaining)
+
+                ===Table(time: 37)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #8
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 38
+
+                ===Event List===
+
+        -Student #8 is in office (0 time remaining)
+        -Student #8 is done. She leaves.
+
+                ===Table(time: 38)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 39
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 39)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 40
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 40)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 41
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 41)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 42
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 42)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 43
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 43)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 44
+
+                ===Event List===
+        -Student #9 comes to office
+
+        -Student #9 is in office (1 time remaining)
+
+                ===Table(time: 44)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #9
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 45
+
+                ===Event List===
+
+        -Student #9 is in office (0 time remaining)
+        -Student #9 is done. She leaves.
+
+                ===Table(time: 45)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 46
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 46)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 47
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 47)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 48
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 48)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 49
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 49)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 50
+
+                ===Event List===
+        -Student #10 comes to office
+
+        -Student #10 is in office (0 time remaining)
+        -Student #10 is done. She leaves.
+
+                ===Table(time: 50)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 51
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 51)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 52
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 52)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 53
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 53)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 54
+
+                ===Event List===
+        -Student #11 comes to office
+
+        -Student #11 is in office (4 time remaining)
+
+                ===Table(time: 54)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #11
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 55
+
+                ===Event List===
+
+        -Student #11 is in office (3 time remaining)
+
+                ===Table(time: 55)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #11
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 56
+
+                ===Event List===
+
+        -Student #11 is in office (2 time remaining)
+
+                ===Table(time: 56)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #11
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 57
+
+                ===Event List===
+
+        -Student #11 is in office (1 time remaining)
+
+                ===Table(time: 57)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | #11
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 58
+
+                ===Event List===
+
+        -Student #11 is in office (0 time remaining)
+        -Student #11 is done. She leaves.
+
+                ===Table(time: 58)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 59
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 59)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 60
+
+                ===Event List===
+
+        +Prof. Fore works on the design of her programming language ParFore.
+
+                ===Table(time: 60)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 61
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 61)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 62
+
+                ===Event List===
+        -Student #12 comes to office
+                _Because office is closed, student #12 leaves!
+
+        +Office is closed
+
+                ===Table(time: 62)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 63
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 63)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 64
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 64)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 65
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 65)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 66
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 66)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 67
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 67)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 68
+
+                ===Event List===
+        -Student #13 comes to office
+                _Because office is closed, student #13 leaves!
+
+        +Office is closed
+
+                ===Table(time: 68)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 69
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 69)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 70
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 70)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 71
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 71)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 72
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 72)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 73
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 73)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 74
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 74)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 75
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 75)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 76
+
+                ===Event List===
+        -Student #14 comes to office
+                _Because office is closed, student #14 leaves!
+
+        +Office is closed
+
+                ===Table(time: 76)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 77
+
+                ===Event List===
+        -Student #15 comes to office
+                _Because office is closed, student #15 leaves!
+
+        +Office is closed
+
+                ===Table(time: 77)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 78
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 78)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 79
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 79)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 80
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 80)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 81
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 81)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 82
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 82)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 83
+
+                ===Event List===
+        -Student #16 comes to office
+                _Because office is closed, student #16 leaves!
+        -Student #17 comes to office
+                _Because office is closed, student #17 leaves!
+
+        +Office is closed
+
+                ===Table(time: 83)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 84
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 84)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 85
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 85)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 86
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 86)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 87
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 87)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 88
+
+                ===Event List===
+        -Student #18 comes to office
+                _Because office is closed, student #18 leaves!
+
+        +Office is closed
+
+                ===Table(time: 88)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 89
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 89)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 90
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 90)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 91
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 91)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 92
+
+                ===Event List===
+        -Student #19 comes to office
+                _Because office is closed, student #19 leaves!
+
+        +Office is closed
+
+                ===Table(time: 92)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 93
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 93)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 94
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 94)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 95
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 95)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 96
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 96)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 97
+
+                ===Event List===
+
+        +Office is closed
+
+                ===Table(time: 97)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+time (in min): 98
+
+                ===Event List===
+        -Student #20 comes to office
+                _Because office is closed, student #20 leaves!
+
+        +Office is closed
+
+                ===Table(time: 98)===
+        Chair_Queue      StaT    VisT   | Visiting_Office
+        1) N/A           N/A     N/a    | N/A
+        2) N/A           N/A     N/a    |
+        3) N/A           N/A     N/a    |
+
+mr.nam@mrnam-PC ~/cs149
+$
